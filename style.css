@@ -84,3 +84,34 @@ img{
 }
 
 
+
+
+
+.users{
+    padding: 50px 142px;
+    text-align: center;
+    background-color:rgba(198, 217, 234, 0.491);
+    border-radius: 24px;
+}
+.user-title{
+    font-size:38px ;
+   
+}
+.user-items{
+    display: flex;
+    justify-content: space-between;
+
+}
+.item-title{
+    color:#4E47FF;
+    font-size: 80px;
+    
+}
+.item-description{
+    color: grey;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+
+
