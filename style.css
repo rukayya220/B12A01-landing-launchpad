@@ -122,6 +122,8 @@ img{
 }
 .review{
     background-color: rgb(255, 255, 255);
+    padding: 24px;
+    border-radius: 14px;
 }
 .review-container{
     
@@ -130,10 +132,7 @@ img{
     
 
 }
-.review{
-    padding: 24px;
-    border-radius: 14px;
-}
+
 .review-info{
               
    display: flex;
@@ -157,5 +156,48 @@ img{
 .review-des{
     font-weight: normal;
     font-size: 15px;
-
+}
+.get-in-touch-section{
+    padding: 71px 0;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-top: 100px;
+}
+.section-column{
+    width: 50%;
+}
+.section-title  {
+    font-size: 88px;
+}
+.get-in-touch-section input[type="email"], input[type="text"]{
+ height: 50px;
+ border-radius: 10px;
+ background-color: #FFFFFF;
+ border: 1px solid #D6DDED;
+ display: block;
+ width: 100%;
+padding-left: 10px;
+font-size: 18px;
+margin-bottom: 10px;
+}
+.get-in-touch-section textarea{
+ border-radius: 10px;
+ background-color: #FFFFFF;
+ border: 1px solid #D6DDED;
+ height: 90px;
+  width: 100%;
+  padding-left: 10px;
+  padding-top: 13px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  
+}
+.section-column .btn-primary{
+    width: 103%;
+    height: 50px;
+}
+label{
+    font-weight: 700;
 }
