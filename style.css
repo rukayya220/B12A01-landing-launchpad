@@ -18,6 +18,10 @@ body{
     color: #23223b;
     font-weight: bold;
 }
+.gray{
+color: #8987A1;
+font-weight: 300;
+}
 .header{
     background-image: url(./Assets/Hero-bg.png);
 }
@@ -63,62 +67,80 @@ main{
     margin: 0 auto;
 }
 .section-title{
-    font-size: 42px;
+   
+    margin-bottom: 10px;
+    margin-top: 0;
+    
 }
 .section-description{
     color: rgba(37, 36, 50, 0.5);
-    font-size: 24px;
+    font-size: 20px;
+   margin-top: 0;
 }
 
 .action{
     display:flex;
-    justify-content: space-between;
     align-items: center;
-    margin:116px 0 116px 0 ;
+
+    justify-content: space-between;
+    margin:120px 0 120px 0 ;
    
+    
+   
+}
+span{
+    font-size: 42px;
+    color:#252432;
 }
 
 .action-content{
     max-width: 517px;
-    padding: 62px 0; 
+    /* padding: 62px 0;  */
+   
 }
 img{
     border-radius: 48px;
 }
-
-
-
-
 
 .users{
     padding: 50px 142px;
     text-align: center;
     background-color:rgba(198, 217, 234, 0.491);
     border-radius: 24px;
+    margin-bottom: 120px;
 }
 .user-title{
-    font-size:38px ;
+    font-size:38px;
+    /* margin: 10px; */
+    padding-bottom: 0;
+   
    
 }
 .user-items{
     display: flex;
     justify-content: space-between;
+   
 
 }
+
 .item-title{
     color:#4E47FF;
     font-size: 80px;
-    
+     margin: 0;
 }
 .item-description{
     color: grey;
     font-size: 20px;
     font-weight: normal;
+    margin-top: 0;
 }
 
 .review-section-title {
     text-align: center;
     font-size: 40px;
+}
+.reviews{
+    margin-bottom: 120px;
 }
 .review{
     background-color: rgb(255, 255, 255);
@@ -126,19 +148,14 @@ img{
     border-radius: 14px;
 }
 .review-container{
-    
     display: flex;
     gap: 30px;
-    
-
 }
 
-.review-info{
-              
+.review-info{    
    display: flex;
    gap: 14px;
-   align-items: center;
-   
+   align-items: center;  
 }
 .reviewers h6{
    margin: 0px;
@@ -157,12 +174,36 @@ img{
     font-weight: normal;
     font-size: 15px;
 }
+
+.focus{
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 14px;
+    padding: 70px 150px;
+   margin-bottom: 120px;
+}
+
+.focus-content h3{
+    font-size: 50px;
+    margin: 0;
+}
+.focus-content p{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+.focus-content .btn-primary{
+    margin-bottom: 20px;
+}
+
 .get-in-touch-section{
+    
     padding: 71px 0;
     display: flex;
     gap: 30px;
     align-items: center;
-    margin-top: 100px;
+    margin-bottom: 120px;
 }
 .section-column{
     width: 50%;
@@ -200,4 +241,24 @@ margin-bottom: 10px;
 }
 label{
     font-weight: 700;
+}
+
+.logo{
+    font-weight: bolder;
+   color:#4E47FF;
+    font-size: 80px;
+     margin: 0;
+
+}
+.footer-content{
+    text-align: center;
+    background-color: #ffffff;
+   align-items: center;
+    padding: 100px;   
+}
+.footer-content ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 42px;
 }
