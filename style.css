@@ -11,6 +11,9 @@
   font-style: normal;
   
 }
+body{
+    background-color: rgba(245, 248, 255, 1)
+}
 .text-primary{
     color: #23223b;
     font-weight: bold;
@@ -113,5 +116,46 @@ img{
     font-weight: normal;
 }
 
+.review-section-title {
+    text-align: center;
+    font-size: 40px;
+}
+.review{
+    background-color: rgb(255, 255, 255);
+}
+.review-container{
+    
+    display: flex;
+    gap: 30px;
+    
 
+}
+.review{
+    padding: 24px;
+    border-radius: 14px;
+}
+.review-info{
+              
+   display: flex;
+   gap: 14px;
+   align-items: center;
+   
+}
+.reviewers h6{
+   margin: 0px;
+   color:#757575;
+   font-size: 14px;
+}
+.reviewers p{
+   margin: 0px;
+   color:#B3B3B3;
+   font-size: 14px;
+}
+.review-title{
+    color:#1E1E1E;
+}
+.review-des{
+    font-weight: normal;
+    font-size: 15px;
 
+}
